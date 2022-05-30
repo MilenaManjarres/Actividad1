@@ -1,0 +1,60 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgb(72, 129, 214);
+    float: right;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 230px;
+    margin:8px;   
+ }
+ 
+ .card:hover{
+     box-shadow: 0 8px 16px 0 rgb(8, 8, 8);
+ }
+ 
+ .container{
+     padding: 2px 16px;
+     
+ }
+
+  
+ li{
+     float: left;
+     display: inline;
+     border: 1px solid rgb(59, 172, 162);
+     margin: 2px;
+     transition: 0.3s;
+ 
+ }
+ li:hover{
+     background-color: rgb(79, 132, 202);    
+     
+ }
+ li a:hover{
+     color: white;
+     
+ }
+ 
+ li a{
+     font-family: Arial, Helvetica, sans-serif;
+     text-shadow: 1px 1px 2px rgb(45, 44, 44);    
+     display: block;
+     color: black;
+     padding: 8px;
+     text-decoration: none;
+ 
+ }
+ 
+ ul{
+     list-style-type: none;   
+     margin: 1px;
+     padding: 1px;
+     overflow: hidden;
+     background-color: rgb(246, 246, 240);
+     /* width: 320px; */
+    
+ }
+ 
+ .active{
+     background-color: aliceblue;
+     color: tomato;
+ }
