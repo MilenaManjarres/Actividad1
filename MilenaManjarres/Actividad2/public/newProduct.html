@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- hoja de estilos -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+  />
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">
+              <img src="./img/jpg/logo.png"  class="circle reponsive-img" width="60px">
+          </a>
+          <ulid="nav-mobile" class="right hide-on-med-and-down">
+
+             <li><a href="newProduct.html">products</a></li>
+             <li><a href="#">card</a></li>
+             <li><a href="#">login</a></li>
+             <li><a href="./theStore.html">the Store </a></li>
+            
+            </ul>
+          
+        </div>
+    </nav>
+    
+    <div class="container">
+        
+
+    <!-- formulario -->
+    <div>
+        <form>
+            <!-- 1 fila  -->
+            <div class="row">
+                <h2>NEW PRODUCT</h2>
+                <div class="col s12 m6 16 input-field">
+                    <label for="product_name ">name</label>
+                    <input type="text" name="pruduct_price" id="product_name">
+                </div>
+                <div class="col s6 m3 13 input-field">
+                    <label for="product_price">price</label>
+                    <input type="number" name="product_price" id="product_price" min="0">
+
+                </div>
+                <div class="col s6 m3 13 input-field ">
+                    <label for="invetory_product">invetory</label> 
+                    <input type="number" name="invetory_product" id="invetory_product" min="0">
+
+                </div>
+                        
+            </div>
+        </form>
+        <div class="card-panel teal lighten-2">Enter the data to create a new product.</div>
+    </div>
+    <div class="rom">
+        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+    </div>
+    
+  
+
+
+</body>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
